@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earn Money by Driving or Get a Ride Now | Uber India</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/uber-logo-img.jpeg" type="image/jpeg" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="images/uber-text-logo-img.jpeg" alt="Uber Logo" class="logo">
+      <ul class="menu-list">
+        <li><a href="#">Ride</a></li>
+        <li><a href="#">Drive</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About <i class="fa-solid fa-caret-down"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-right">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search Uber.com">
+      </div>
+      
+      <ul class="right-list">
+        <li><a href="#"><i class="fa-solid fa-globe"></i> EN</a></li>
+        <li><a href="#">Help</a></li>
+        <li id="profile"><a href="#">My Account</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="left-half">
+      <h1>Go anywhere with Uber</h1>
+      <div class="form-container">
+        <div class="location-input pickup">
+          <span class="dot-icon"></span>
+          <input type="text" placeholder="Pickup location">
+          <span class="send-icon">➤</span>
+        </div>
+
+        <div class="location-input dropoff">
+          <span class="square-icon"></span>
+          <input type="text" placeholder="Dropoff location">
+        </div>
+
+        <div class="datetime-row">
+          <div class="date-picker">
+            <span class="calendar-icon"><i class="fa-solid fa-calendar"></i></span> Today
+          </div>
+          <div class="time-picker">
+            <span class="clock-icon"><i class="fa-solid fa-clock"></i></span> Now ▼
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="see-prices">See prices</button>
+          <a href="#" class="login-link">Log in to see your recent activity</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-half">
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.203146798881!2d76.3364179!3d10.0303205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dbdbbdbbdbb%3A0xabc123!2sSeaport%20-%20Airport%20Road%2C%20Thrikkakara%2C%20Kochi%2C%20Kerala%2C%20India!5e0!3m2!1sen!2sin!4v1234567890" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>      
+    </div>
+  </div>
+
+  <!-- Suggestions Section -->
+  <div class="suggestions-whole">
+    <div class="heading">
+      <h1>Suggestions</h1>
+    </div>
+
+    <div class="suggestions-section">
+      <a href="#" class="suggestion-box">
+        <h2>Rentals</h2>
+        <p>Request a trip for a block of time and<br>make multiple stops.</p>
+        <img src="images/rental.png" alt="img" class="rentalimg">
+      </a>
+
+      <a href="#" class="suggestion-box">
+        <h2>Reserve</h2>
+        <p>Reserve your ride in advance so you<br>can relax on the day of your trip.</p>
+        <img src="images/uber-reserve_clock.png" alt="img" class="reserveimg">
+      </a>
+
+      <a href="#" class="suggestion-box">
+        <h2>Ride</h2>
+        <p>Go anywhere with Uber. Request a<br>ride, hop in, and go.</p>
+        <h5>Details</h5>
+        <img src="images/uber-suggestions-ride.png" alt="img" class="rideimg">
+      </a>
+    </div>
+  </div>
+
+  <div class="t-section">
+    <div class="t-container">
+      <div class="left-half">
+        <h1>Log in to see your recent activity</h1>
+        <p class="sub-text">View past trips, tailored suggestions, support resources, and more.</p>
+  
+        <div class="button-container">
+          <button class="button">Log in to your account</button>
+          <p class="signup-link"><a href="#">Don't have an Uber account? Sign up</a></p>
+        </div>
+      </div>
+  
+      <div class="right-half">
+        <img src="images/airport-fall.webp" alt="Activity Image" />
+      </div>
+    </div>
+  </div>
+
+  <div class="plan-section">
+    <div class="plan-container">
+      
+      <!-- Left Side -->
+      <div class="plan-left">
+        <h1>Plan for later</h1>
+        <div class="plan-box">
+          <div class="plan-content">
+            <h2>Get your ride right with Uber Reserve</h2>
+            <p>Choose date and time</p>
+
+            <div class="datetime-buttons">
+              <button class="date-button">
+                <span class="date-icon"><i class="fa-solid fa-calendar"></i></span> <!-- calendar icon -->
+                Date
+              </button>
+            
+              <button class="time-button">
+                <span class="time-icon"><i class="fa-solid fa-clock"></i></span> <!-- clock icon -->
+                Time
+                <span class="arrow">▼</span> <!-- dropdown arrow -->
+              </button>
+            </div>            
+            
+            <button class="next-btn">Next</button>
+          </div>
+          
+          <div class="plan-image">
+            <img src="images/f-img.png" alt="Decorative Image">
+          </div>
+        </div>
+      </div>
+
+      <div class="benefits-section">
+        <h2>Benefits</h2>
+      
+        <div class="benefit-item">
+          <i class="fa-solid fa-calendar icon"></i>
+          <p>Choose your exact pickup time up to 90 days in advance.</p>
+        </div>
+      
+        <div class="benefit-item">
+          <i class="fa-solid fa-clock icon"></i>
+          <p>Extra wait time included to meet your ride.</p>
+        </div>
+      
+        <div class="benefit-item">
+          <i class="fa-regular fa-calendar icon"></i>
+          <p>Cancel at no charge up to 60 minutes in advance.</p>
+        </div>
+      
+        <div class="benefit-link">
+          <a href="#">See terms</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="drive-section">
+    <div class="left-half">
+      <div class="drive-img">
+        <img src="images/drive-option-img.webp" alt="Drive Car Image">
+      </div>
+    </div>
+  
+    <div class="right-half">
+      <h2>Drive when you want, make what you need</h2>
+      <p>Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental<br>through Uber.</p>
+      
+      <div class="buttons">
+        <a href="#" class="get-started">Get Started</a>
+        <a href="#" class="sign-in">already have an account? Sign in</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="new-section">
+    <div class="left-half">
+      <h2>The Uber you know, reimagined for business</h2>
+      <p>Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+      
+      <div class="buttons">
+        <a href="#" class="get-started">Get Started</a>
+        <a href="#" class="sign-in">Check out our solutions</a>
+      </div>
+    </div>
+    
+    <div class="right-half">
+      <div class="image">
+        <img src="images/global-ride-img.webp" alt="Image">
+      </div>
+    </div>
+  </div>
+  
+  <div class="rentout-section">
+    <div class="left-half">
+      <div class="drive-img">
+        <img src="images/rentout-cars.webp" alt="rentout Image">
+      </div>
+    </div>
+  
+    <div class="right-half">
+      <h2>Make money by renting out your car</h2>
+      <p>Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+      
+      <div class="buttons">
+        <a href="#" class="get-started">Get Started</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="apps-section">
+    <h2>It's easier in the apps</h2>
+  
+    <div class="apps-container">
+  
+      <!-- First App Card (correct structure) -->
+      <div class="app-card">
+        <img src="images/qr-final-download-uber-app.webp" alt="Uber QR Code" class="qr-code">
+        <div class="app-details">
+          <h3>Download the Uber app</h3>
+          <p>Scan to download</p>
+        </div>
+        <div class="arrow-container">
+          <a href="#" class="arrow">→</a>
+        </div>
+      </div>
+  
+      <!-- Second App Card (corrected structure) -->
+      <div class="app-card">
+        <img src="images/qr-download-driver-app.webp" alt="Driver QR Code" class="qr-code">
+        <div class="app-details">
+          <h3>Download the Driver app</h3>
+          <p>Scan to download</p>
+        </div>
+        <div class="arrow-container">
+          <a href="#" class="arrow">→</a>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  <!-- End Navbar -->
+<nav class="end-navbar">
+  <div class="end-navbar-left">
+    <h3>Uber</h3>
+    <p>Visit Help Center</p>
+  </div>
+</nav>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-columns">
+      <!-- Column 1 -->
+      <div class="footer-column">
+        <p class="footer-heading">Company</p>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Our offerings</a></li>
+          <li><a href="#">Newsroom</a></li>
+          <li><a href="#">Investors</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="footer-column">
+        <p class="footer-heading">Products</p>
+        <ul>
+          <li><a href="#">Ride</a></li>
+          <li><a href="#">Drive</a></li>
+          <li><a href="#">Deliver</a></li>
+          <li><a href="#">Eat</a></li>
+          <li><a href="#">Uber for Business</a></li>
+          <li><a href="#">Uber Freight</a></li>
+          <li><a href="#">Gift cards</a></li>
+          <li><a href="#">Uber Health</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="footer-column">
+        <p class="footer-heading">Global citizenship</p>
+        <ul>
+          <li><a href="#">Safety</a></li>
+          <li><a href="#">Sustainability</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="footer-column">
+        <p class="footer-heading">Travel</p>
+        <ul>
+          <li><a href="#">Reserve</a></li>
+          <li><a href="#">Airports</a></li>
+          <li><a href="#">Cities</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Middle Section -->
+  <div class="footer-middle">
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <div class="store-footer-wrapper">
+      <div class="store-buttons">
+        <a href="#"><img src="images/uber-googleplay.png" class="aimg" alt="Get it on Google Play"></a>
+        <a href="#"><img src="images/uber-appstore.png" class="bimg" alt="Download on the App Store"></a>
+      </div>
+    
+      <div class="footer-language-location">
+        <a href="#"><i class="fa-solid fa-globe"></i> <span>English</span></a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i> <span>San Francisco Bay Area</span></a>
+      </div>      
+    </div>    
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 Uber Technologies Inc.</p>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Terms</a>
+    </div>
+  </div>
+  
+
+</body>
+</html>
